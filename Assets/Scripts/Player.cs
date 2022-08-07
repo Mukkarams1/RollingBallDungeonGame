@@ -8,19 +8,20 @@ public class Player : MonoBehaviour
     //public GameObject camera;
     //Camera cr;
     float movementX;
-    float movementZ;
+    
     Rigidbody rb;
-    public float speed;
+    public float speed=45;
     public GameObject RollingSound;
     [SerializeField] GameObject RespawnPanel;
     Vector3 StartPos;
     public VariableJoystick Joystick;
     bool isRespawend = false;
     public CollisionHandler CollisionHandler;
-    public float JumpSpeed=5;
+    public float JumpSpeed=1200;
 
     void Start()
     {
+        CollisionHandler.isInAir = false;
         CollisionHandler.isControllsEnabled = true;
         rb = transform.GetComponent<Rigidbody>();
         StartPos = rb.transform.position;
@@ -43,7 +44,7 @@ public class Player : MonoBehaviour
 
             keyboardMovement();
             JoyStickMovement();
-
+            WhilePlayerIsInAir();
         }
 
 
@@ -129,6 +130,17 @@ public class Player : MonoBehaviour
         
         
         
+    }
+    public void WhilePlayerIsInAir()
+    {
+        if(CollisionHandler.isInAir == true)
+        {
+            speed = 25;
+        }
+        else
+        {
+            speed = 45;
+        }
     }
     
     

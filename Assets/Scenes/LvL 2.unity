@@ -927,6 +927,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MovingPlatforms (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4645992003508935603, guid: ee253352f714de94284856ba6ca72137, type: 3}
+      propertyPath: m_TagString
+      value: FloorToMoveOn
+      objectReference: {fileID: 0}
     - target: {fileID: 5021487311767723011, guid: ee253352f714de94284856ba6ca72137, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -1265,6 +1269,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MovingPlatforms (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4645992003508935603, guid: ee253352f714de94284856ba6ca72137, type: 3}
+      propertyPath: m_TagString
+      value: FloorToMoveOn
+      objectReference: {fileID: 0}
     - target: {fileID: 5021487311767723011, guid: ee253352f714de94284856ba6ca72137, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -1507,6 +1515,10 @@ PrefabInstance:
     - target: {fileID: 4645992003508935603, guid: ee253352f714de94284856ba6ca72137, type: 3}
       propertyPath: m_Name
       value: MovingPlatforms (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4645992003508935603, guid: ee253352f714de94284856ba6ca72137, type: 3}
+      propertyPath: m_TagString
+      value: FloorToMoveOn
       objectReference: {fileID: 0}
     - target: {fileID: 5021487311767723011, guid: ee253352f714de94284856ba6ca72137, type: 3}
       propertyPath: m_RootOrder
@@ -5337,6 +5349,10 @@ PrefabInstance:
     - target: {fileID: 4645992003508935603, guid: ee253352f714de94284856ba6ca72137, type: 3}
       propertyPath: m_Name
       value: MovingPlatforms
+      objectReference: {fileID: 0}
+    - target: {fileID: 4645992003508935603, guid: ee253352f714de94284856ba6ca72137, type: 3}
+      propertyPath: m_TagString
+      value: FloorToMoveOn
       objectReference: {fileID: 0}
     - target: {fileID: 5021487311767723011, guid: ee253352f714de94284856ba6ca72137, type: 3}
       propertyPath: m_RootOrder

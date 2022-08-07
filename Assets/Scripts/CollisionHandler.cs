@@ -27,6 +27,7 @@ public class CollisionHandler : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        isInAir = false;
         NextLvlPanel.SetActive(false);
         rb = transform.GetComponent<Rigidbody>();
         scoretxt.text = Counter.ToString();
